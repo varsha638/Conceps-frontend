@@ -90,37 +90,4 @@ git remote add origin <your-github-repo-url>
 git push -u origin main
 > Replace `<your-github-repo-url>` with your GitHub repository link.
 
----
 
-## 📂 Project Structure
-CONC/
-│── node_modules/ # Project dependencies
-│── public/
-│ ├── images/ # Static images
-│ └── vite.svg # Vite logo
-│
-│── src/
-│ ├── assets/ # Project images/assets
-│ │ └── react.svg
-│ ├── components/ # Reusable UI components
-│ │ ├── Header.jsx
-│ │ └── Sidebar.jsx
-│ ├── context/ # Context API
-│ │ └── ThemeContext.jsx
-│ ├── layouts/ # Layout components
-│ │ └── AppLayout.jsx
-│ ├── pages/ # Application screens
-│ │ ├── Dashboard.jsx
-│ │ ├── Products.jsx
-│ │ ├── RegistrationForm.jsx
-│ │ ├── SignIn.jsx
-│ │ ├── SignUp.jsx
-│ │ ├── Users.jsx
-│ │ └── VerifyOTP.jsx
-│ ├── styles/ # Global & component styles
-│ │ └── global.css
-│ ├── App.jsx # Root app component with routes
-│ └── main.jsx # React entry point
-│
-├── package.json
-└── README.md
